@@ -1,0 +1,27 @@
+##ignore this file##
+.vscode
+*.idea
+**/weights/
+__pycache__
+*.zip
+model.safetensors
+**/runs/
+*.h5
+*.pth
+*.pt
+*.jpg
+*.ckpt.*
+*.ckpt
+*.config
+*.gz
+*.onnx
+*.xml
+*.bin
+*.mapping
+*.csv
+checkpoint
+data
+VOCdevkit
+**/output/
+**/pytorch_tb/
+**/MNIST/
