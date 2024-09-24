@@ -28,7 +28,7 @@ from sentence_transformers.readers import InputExample
 from torch.utils.data import DataLoader
 
 # Set specific GPU to use
-torch.cuda.set_device(2)  # 设定为GPU2
+torch.cuda.set_device(0)  # 设定为GPU2
 
 #### Just some code to print debug information to stdout
 logging.basicConfig(
